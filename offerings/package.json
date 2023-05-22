@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"@types/node": "^20.2.3"
+	},
+	"dependencies": {
+		"@types/node-fetch": "2.6.x",
+		"node-fetch": "2.6.7",
+		"node-html-parser": "^6.1.5",
+		"typescript": "^5.0.4"
+	}
+}
