@@ -1,0 +1,962 @@
+[
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 2.1,
+        "courseCode": "CS421_1"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.4,
+        "courseCode": "CS421_2"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 1.42,
+        "courseCode": "CTIS163_1"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 1.68,
+        "courseCode": "CTIS163_2"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 2.51,
+        "courseCode": "CTIS163_3"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.76,
+        "courseCode": "CTIS164_1"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 1.49,
+        "courseCode": "CTIS261_1"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 1.62,
+        "courseCode": "CTIS261_2"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.06,
+        "courseCode": "CTIS261_3"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 1.96,
+        "courseCode": "CTIS261_4"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 1.86,
+        "courseCode": "CTIS262_1"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.16,
+        "courseCode": "CTIS480_1"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 3.11,
+        "courseCode": "CTIS484_1"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.01,
+        "courseCode": "CTIS497_1"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 2.33,
+        "courseCode": "ECON103_1"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.59,
+        "courseCode": "ECON103_2"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2.81,
+        "courseCode": "ECON103_3"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 2.25,
+        "courseCode": "ECON103_4"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 2.44,
+        "courseCode": "ECON103_5"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 3.12,
+        "courseCode": "ECON464_1"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 3.59,
+        "courseCode": "ECON464_2"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 3.12,
+        "courseCode": "LAW103_1"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.96,
+        "courseCode": "LAW103_2"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2.82,
+        "courseCode": "LAW103_3"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 1.8,
+        "courseCode": "LAW105_1"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 2.21,
+        "courseCode": "LAW105_2"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 3.37,
+        "courseCode": "LAW105_3"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.96,
+        "courseCode": "LAW105_4"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2.41,
+        "courseCode": "LAW201_1"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 3.25,
+        "courseCode": "LAW201_2"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.37,
+        "courseCode": "LAW201_3"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 1.22,
+        "courseCode": "LAW202_1"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 2.14,
+        "courseCode": "LAW203_1"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 1.63,
+        "courseCode": "LAW203_2"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 1.64,
+        "courseCode": "LAW203_3"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 1.67,
+        "courseCode": "LAW203_4"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.56,
+        "courseCode": "LAW205_1"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 2.8,
+        "courseCode": "LAW205_2"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2.24,
+        "courseCode": "LAW205_3"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.51,
+        "courseCode": "LAW205_4"
+    },
+    {
+        "schedule": [
+            "mon_1030",
+            "mon_1130",
+            "tue_1330",
+            "tue_1430"
+        ],
+        "gpa": 2.25,
+        "courseCode": "LAW301_1"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 1.87,
+        "courseCode": "LAW301_2"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.13,
+        "courseCode": "LAW305_1"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 2.47,
+        "courseCode": "LAW305_2"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 2.57,
+        "courseCode": "LAW305_3"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 2.01,
+        "courseCode": "LAW305_4"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 1.99,
+        "courseCode": "LAW307_1"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 2.39,
+        "courseCode": "LAW307_2"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.54,
+        "courseCode": "LAW307_3"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2.32,
+        "courseCode": "LAW307_4"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2.36,
+        "courseCode": "LAW308_1"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 2.48,
+        "courseCode": "LAW401_1"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.61,
+        "courseCode": "LAW401_2"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 2.25,
+        "courseCode": "LAW403_1"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 2.06,
+        "courseCode": "LAW403_2"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 2.62,
+        "courseCode": "LAW410_1"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 2.19,
+        "courseCode": "LAW411_1"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 2.32,
+        "courseCode": "LAW411_2"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 2.5,
+        "courseCode": "LAW411_3"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 1.93,
+        "courseCode": "MATH101_1"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 1.89,
+        "courseCode": "MATH101_2"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.16,
+        "courseCode": "MATH101_3"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 2.34,
+        "courseCode": "MATH101_4"
+    },
+    {
+        "schedule": [
+            "thu_1330",
+            "thu_1430",
+            "mon_1530",
+            "mon_1630"
+        ],
+        "gpa": 2.31,
+        "courseCode": "MATH101_5"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.42,
+        "courseCode": "MATH101_6"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 1.85,
+        "courseCode": "MATH101_7"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 1.85,
+        "courseCode": "MATH101_8"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 1.95,
+        "courseCode": "MATH101_9"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 2.08,
+        "courseCode": "MATH101_10"
+    },
+    {
+        "schedule": [
+            "wed_0830",
+            "wed_0930",
+            "fri_1030",
+            "fri_1130"
+        ],
+        "gpa": 2.12,
+        "courseCode": "MATH101_11"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 1.56,
+        "courseCode": "MATH101_12"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 1.38,
+        "courseCode": "MATH101_13"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 1.61,
+        "courseCode": "MATH101_14"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 2,
+        "courseCode": "MATH102_1"
+    },
+    {
+        "schedule": [
+            "fri_0830",
+            "fri_0930",
+            "tue_1030",
+            "tue_1130"
+        ],
+        "gpa": 1.75,
+        "courseCode": "MATH102_2"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 1.52,
+        "courseCode": "MATH102_3"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 1.85,
+        "courseCode": "MATH102_4"
+    },
+    {
+        "schedule": [
+            "tue_0830",
+            "tue_0930",
+            "thu_1030",
+            "thu_1130"
+        ],
+        "gpa": 1.62,
+        "courseCode": "MATH102_5"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.72,
+        "courseCode": "MATH105_1"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.32,
+        "courseCode": "MATH105_2"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 2.96,
+        "courseCode": "MATH105_3"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.07,
+        "courseCode": "MATH105_4"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 2.43,
+        "courseCode": "MATH105_6"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 2.61,
+        "courseCode": "MATH106_1"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 2.65,
+        "courseCode": "MATH106_2"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.52,
+        "courseCode": "MATH106_3"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 2.27,
+        "courseCode": "MATH123_1"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.09,
+        "courseCode": "MATH225_1"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 1.91,
+        "courseCode": "MATH225_2"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 2.17,
+        "courseCode": "MATH225_3"
+    },
+    {
+        "schedule": [
+            "mon_0830",
+            "mon_0930",
+            "wed_1030",
+            "wed_1130"
+        ],
+        "gpa": 1.61,
+        "courseCode": "MATH225_4"
+    },
+    {
+        "schedule": [
+            "mon_1330",
+            "mon_1430",
+            "wed_1530",
+            "wed_1630"
+        ],
+        "gpa": 1.99,
+        "courseCode": "MATH241_1"
+    },
+    {
+        "schedule": [
+            "thu_0830",
+            "thu_0930",
+            "mon_1030",
+            "mon_1130"
+        ],
+        "gpa": 1.95,
+        "courseCode": "MATH241_2"
+    },
+    {
+        "schedule": [
+            "fri_1330",
+            "fri_1430",
+            "tue_1530",
+            "tue_1630"
+        ],
+        "gpa": 2.08,
+        "courseCode": "MATH241_3"
+    },
+    {
+        "schedule": [
+            "wed_1330",
+            "wed_1430",
+            "fri_1530",
+            "fri_1630"
+        ],
+        "gpa": 2.96,
+        "courseCode": "MATH242_1"
+    },
+    {
+        "schedule": [
+            "tue_1330",
+            "tue_1430",
+            "thu_1530",
+            "thu_1630"
+        ],
+        "gpa": 2.45,
+        "courseCode": "MATH255_1"
+    }
+]

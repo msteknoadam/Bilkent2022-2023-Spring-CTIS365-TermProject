@@ -1,0 +1,1074 @@
+{
+    "CS": {
+        "CS 421": {
+            "name": "Computer Networks",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 2.1
+                },
+                "2": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.4
+                }
+            },
+            "gpa": 2.27
+        }
+    },
+    "CTIS": {
+        "CTIS 163": {
+            "name": "Discrete Mathematics ",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 1.42
+                },
+                "2": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 1.68
+                },
+                "3": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 2.51
+                }
+            },
+            "gpa": 1.81
+        },
+        "CTIS 164": {
+            "name": "Technical Mathematics with Programming ",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.76
+                }
+            },
+            "gpa": 2.76
+        },
+        "CTIS 261": {
+            "name": "Computer Networks I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 1.49
+                },
+                "2": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 1.62
+                },
+                "3": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.06
+                },
+                "4": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 1.96
+                }
+            },
+            "gpa": 1.76
+        },
+        "CTIS 262": {
+            "name": "Computer Networks II",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 1.86
+                }
+            },
+            "gpa": 1.86
+        },
+        "CTIS 480": {
+            "name": "iOS Application Development",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.16
+                }
+            },
+            "gpa": 2.16
+        },
+        "CTIS 484": {
+            "name": "Advanced Topics in Programming ",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 3.11
+                }
+            },
+            "gpa": 3.11
+        },
+        "CTIS 497": {
+            "name": "Scaling Networks",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.01
+                }
+            },
+            "gpa": 2.01
+        }
+    },
+    "ECON": {
+        "ECON 103": {
+            "name": "Principles of Economics",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 2.33
+                },
+                "2": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.59
+                },
+                "3": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2.81
+                },
+                "4": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 2.25
+                },
+                "5": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 2.44
+                }
+            },
+            "gpa": 2.48
+        },
+        "ECON 464": {
+            "name": "Global Trading",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 3.12
+                },
+                "2": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 3.59
+                }
+            },
+            "gpa": 3.36
+        }
+    },
+    "LAW": {
+        "LAW 103": {
+            "name": "Constitutional Law I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 3.12
+                },
+                "2": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.96
+                },
+                "3": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2.82
+                }
+            },
+            "gpa": 2.96
+        },
+        "LAW 105": {
+            "name": "Civil Law I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 1.8
+                },
+                "2": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 2.21
+                },
+                "3": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 3.37
+                },
+                "4": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.96
+                }
+            },
+            "gpa": 2.71
+        },
+        "LAW 201": {
+            "name": "Law of Obligations I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2.41
+                },
+                "2": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 3.25
+                },
+                "3": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.37
+                }
+            },
+            "gpa": 2.73
+        },
+        "LAW 202": {
+            "name": "Law of Obligations II",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 1.22
+                }
+            },
+            "gpa": 1.22
+        },
+        "LAW 203": {
+            "name": "Criminal Law I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 2.14
+                },
+                "2": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 1.63
+                },
+                "3": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 1.64
+                },
+                "4": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 1.67
+                }
+            },
+            "gpa": 1.69
+        },
+        "LAW 205": {
+            "name": "Administrative Law I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.56
+                },
+                "2": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 2.8
+                },
+                "3": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2.24
+                },
+                "4": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.51
+                }
+            },
+            "gpa": 2.49
+        },
+        "LAW 301": {
+            "name": "Civil Procedure I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_1030",
+                        "mon_1130",
+                        "tue_1330",
+                        "tue_1430"
+                    ],
+                    "gpa": 2.25
+                },
+                "2": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 1.87
+                }
+            },
+            "gpa": 2.04
+        },
+        "LAW 305": {
+            "name": "Civil Law III: Law of Property I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.13
+                },
+                "2": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 2.47
+                },
+                "3": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 2.57
+                },
+                "4": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 2.01
+                }
+            },
+            "gpa": 2.38
+        },
+        "LAW 307": {
+            "name": "Commercial Law I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 1.99
+                },
+                "2": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 2.39
+                },
+                "3": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.54
+                },
+                "4": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2.32
+                }
+            },
+            "gpa": 2.38
+        },
+        "LAW 308": {
+            "name": "Commercial Law II",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2.36
+                }
+            },
+            "gpa": 2.36
+        },
+        "LAW 401": {
+            "name": "Commercial Law III",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 2.48
+                },
+                "2": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.61
+                }
+            },
+            "gpa": 2.53
+        },
+        "LAW 403": {
+            "name": "Civil Law IV: Inheritance Law",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 2.25
+                },
+                "2": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 2.06
+                }
+            },
+            "gpa": 2.16
+        },
+        "LAW 410": {
+            "name": "Enforcement and Bankruptcy Law",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 2.62
+                }
+            },
+            "gpa": 2.62
+        },
+        "LAW 411": {
+            "name": "Criminal Procedure ",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 2.19
+                },
+                "2": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 2.32
+                },
+                "3": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 2.5
+                }
+            },
+            "gpa": 2.37
+        }
+    },
+    "MATH": {
+        "MATH 101": {
+            "name": "Calculus I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 1.93
+                },
+                "2": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 1.89
+                },
+                "3": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.16
+                },
+                "4": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 2.34
+                },
+                "5": {
+                    "schedule": [
+                        "thu_1330",
+                        "thu_1430",
+                        "mon_1530",
+                        "mon_1630"
+                    ],
+                    "gpa": 2.31
+                },
+                "6": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.42
+                },
+                "7": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 1.85
+                },
+                "8": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 1.85
+                },
+                "9": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 1.95
+                },
+                "10": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 2.08
+                },
+                "11": {
+                    "schedule": [
+                        "wed_0830",
+                        "wed_0930",
+                        "fri_1030",
+                        "fri_1130"
+                    ],
+                    "gpa": 2.12
+                },
+                "12": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 1.56
+                },
+                "13": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 1.38
+                },
+                "14": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 1.61
+                }
+            },
+            "gpa": 1.98
+        },
+        "MATH 102": {
+            "name": "Calculus II",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 2
+                },
+                "2": {
+                    "schedule": [
+                        "fri_0830",
+                        "fri_0930",
+                        "tue_1030",
+                        "tue_1130"
+                    ],
+                    "gpa": 1.75
+                },
+                "3": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 1.52
+                },
+                "4": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 1.85
+                },
+                "5": {
+                    "schedule": [
+                        "tue_0830",
+                        "tue_0930",
+                        "thu_1030",
+                        "thu_1130"
+                    ],
+                    "gpa": 1.62
+                }
+            },
+            "gpa": 1.76
+        },
+        "MATH 105": {
+            "name": "Introduction to Calculus I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.72
+                },
+                "2": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.32
+                },
+                "3": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 2.96
+                },
+                "4": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.07
+                },
+                "6": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 2.43
+                }
+            },
+            "gpa": 2.53
+        },
+        "MATH 106": {
+            "name": "Introduction to Calculus II",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 2.61
+                },
+                "2": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 2.65
+                },
+                "3": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.52
+                }
+            },
+            "gpa": 2.6
+        },
+        "MATH 123": {
+            "name": "Abstract Mathematics I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 2.27
+                }
+            },
+            "gpa": 2.27
+        },
+        "MATH 225": {
+            "name": "Linear Algebra and Differential Equations",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.09
+                },
+                "2": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 1.91
+                },
+                "3": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 2.17
+                },
+                "4": {
+                    "schedule": [
+                        "mon_0830",
+                        "mon_0930",
+                        "wed_1030",
+                        "wed_1130"
+                    ],
+                    "gpa": 1.61
+                }
+            },
+            "gpa": 1.96
+        },
+        "MATH 241": {
+            "name": "Engineering Mathematics I",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "mon_1330",
+                        "mon_1430",
+                        "wed_1530",
+                        "wed_1630"
+                    ],
+                    "gpa": 1.99
+                },
+                "2": {
+                    "schedule": [
+                        "thu_0830",
+                        "thu_0930",
+                        "mon_1030",
+                        "mon_1130"
+                    ],
+                    "gpa": 1.95
+                },
+                "3": {
+                    "schedule": [
+                        "fri_1330",
+                        "fri_1430",
+                        "tue_1530",
+                        "tue_1630"
+                    ],
+                    "gpa": 2.08
+                }
+            },
+            "gpa": 2
+        },
+        "MATH 242": {
+            "name": "Engineering Mathematics II",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "wed_1330",
+                        "wed_1430",
+                        "fri_1530",
+                        "fri_1630"
+                    ],
+                    "gpa": 2.96
+                }
+            },
+            "gpa": 2.96
+        },
+        "MATH 255": {
+            "name": "Probability and Statistics",
+            "sections": {
+                "1": {
+                    "schedule": [
+                        "tue_1330",
+                        "tue_1430",
+                        "thu_1530",
+                        "thu_1630"
+                    ],
+                    "gpa": 2.45
+                }
+            },
+            "gpa": 2.45
+        }
+    }
+}

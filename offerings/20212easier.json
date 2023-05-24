@@ -1,0 +1,683 @@
+[
+    {
+        "name": "Introduction to Computer Applications and Programming",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 2.16
+            },
+            "2": {
+                "schedule": [
+                    "mon_0830",
+                    "mon_0930",
+                    "wed_1330",
+                    "wed_1430"
+                ],
+                "gpa": 2.76
+            },
+            "3": {
+                "schedule": [
+                    "tue_1030",
+                    "tue_1130",
+                    "thu_1530",
+                    "thu_1630"
+                ],
+                "gpa": 2.46
+            },
+            "4": {
+                "schedule": [
+                    "wed_1030",
+                    "wed_1130",
+                    "fri_1530",
+                    "fri_1630"
+                ],
+                "gpa": 2.59
+            },
+            "5": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 2.99
+            },
+            "6": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 2.69
+            },
+            "7": {
+                "schedule": [
+                    "mon_1030",
+                    "mon_1130",
+                    "wed_1530",
+                    "wed_1630"
+                ],
+                "gpa": 2.8
+            },
+            "8": {
+                "schedule": [
+                    "wed_0830",
+                    "wed_0930",
+                    "fri_1330",
+                    "fri_1430"
+                ],
+                "gpa": 2.72
+            }
+        },
+        "gpa": 2.64
+    },
+    {
+        "name": "Introduction to Data Analysis for Social Sciences",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "wed_1030",
+                    "wed_1130",
+                    "fri_1530",
+                    "fri_1630"
+                ],
+                "gpa": 1.99
+            },
+            "2": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 1.88
+            },
+            "3": {
+                "schedule": [
+                    "tue_1030",
+                    "tue_1130",
+                    "thu_1530",
+                    "thu_1630"
+                ],
+                "gpa": 1.83
+            },
+            "4": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 2.44
+            },
+            "5": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 2.38
+            },
+            "6": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 2.72
+            }
+        },
+        "gpa": 2.17
+    },
+    {
+        "name": "Computer Networks",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 2.83
+            }
+        },
+        "gpa": 2.74
+    },
+    {
+        "name": "Principles of Economics",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "mon_1030",
+                    "mon_1130",
+                    "wed_1530",
+                    "wed_1630"
+                ],
+                "gpa": 2.02
+            },
+            "2": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 2.63
+            },
+            "3": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 2.89
+            },
+            "4": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 2.12
+            }
+        },
+        "gpa": 2.45
+    },
+    {
+        "name": "Economics of Labor Market",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 3.53
+            }
+        },
+        "gpa": 3.53
+    },
+    {
+        "name": "International Commercial Arbitration",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "wed_1030",
+                    "wed_1130",
+                    "fri_1530",
+                    "fri_1630"
+                ],
+                "gpa": 1.4
+            },
+            "2": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 1.5
+            }
+        },
+        "gpa": 1.44
+    },
+    {
+        "name": "Calculus I",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "mon_0830",
+                    "mon_0930",
+                    "wed_1330",
+                    "wed_1430"
+                ],
+                "gpa": 1.51
+            },
+            "2": {
+                "schedule": [
+                    "wed_1030",
+                    "wed_1130",
+                    "fri_1530",
+                    "fri_1630"
+                ],
+                "gpa": 2.07
+            },
+            "3": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 1.65
+            },
+            "4": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 1.44
+            },
+            "5": {
+                "schedule": [
+                    "tue_0830",
+                    "tue_0930",
+                    "thu_1330",
+                    "thu_1430"
+                ],
+                "gpa": 1.42
+            }
+        },
+        "gpa": 1.64
+    },
+    {
+        "name": "Calculus II",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 2.06
+            },
+            "2": {
+                "schedule": [
+                    "wed_1030",
+                    "wed_1130",
+                    "fri_1530",
+                    "fri_1630"
+                ],
+                "gpa": 2.19
+            },
+            "3": {
+                "schedule": [
+                    "tue_1030",
+                    "tue_1130",
+                    "thu_1530",
+                    "thu_1630"
+                ],
+                "gpa": 2.22
+            },
+            "4": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 2.65
+            },
+            "5": {
+                "schedule": [
+                    "wed_0830",
+                    "wed_0930",
+                    "fri_1330",
+                    "fri_1430"
+                ],
+                "gpa": 2.26
+            },
+            "6": {
+                "schedule": [
+                    "tue_0830",
+                    "tue_0930",
+                    "thu_1330",
+                    "thu_1430"
+                ],
+                "gpa": 2.03
+            },
+            "7": {
+                "schedule": [
+                    "tue_0830",
+                    "tue_0930",
+                    "thu_1330",
+                    "thu_1430"
+                ],
+                "gpa": 2.02
+            },
+            "8": {
+                "schedule": [
+                    "mon_0830",
+                    "mon_0930",
+                    "wed_1330",
+                    "wed_1430"
+                ],
+                "gpa": 2.02
+            },
+            "9": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 1.86
+            },
+            "10": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 1.88
+            },
+            "11": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 1.72
+            },
+            "12": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 2.38
+            },
+            "13": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 1.94
+            },
+            "14": {
+                "schedule": [
+                    "tue_0830",
+                    "tue_0930",
+                    "thu_1330",
+                    "thu_1430"
+                ],
+                "gpa": 1.47
+            }
+        },
+        "gpa": 2.08
+    },
+    {
+        "name": "Introduction to Calculus I",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "mon_0830",
+                    "mon_0930",
+                    "wed_1330",
+                    "wed_1430"
+                ],
+                "gpa": 2.08
+            },
+            "2": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 1.58
+            },
+            "3": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 1.68
+            },
+            "4": {
+                "schedule": [
+                    "mon_0830",
+                    "mon_0930",
+                    "wed_1330",
+                    "wed_1430"
+                ],
+                "gpa": 1.38
+            },
+            "5": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 1.51
+            }
+        },
+        "gpa": 1.64
+    },
+    {
+        "name": "Introduction to Calculus II",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "wed_0830",
+                    "wed_0930",
+                    "fri_1330",
+                    "fri_1430"
+                ],
+                "gpa": 2.17
+            },
+            "2": {
+                "schedule": [
+                    "tue_0830",
+                    "tue_0930",
+                    "thu_1330",
+                    "thu_1430"
+                ],
+                "gpa": 2
+            },
+            "3": {
+                "schedule": [
+                    "tue_1030",
+                    "tue_1130",
+                    "thu_1530",
+                    "thu_1630"
+                ],
+                "gpa": 1.91
+            },
+            "4": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 2.01
+            },
+            "5": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 1.86
+            }
+        },
+        "gpa": 2
+    },
+    {
+        "name": "Abstract Mathematics II",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 1.98
+            }
+        },
+        "gpa": 1.98
+    },
+    {
+        "name": "Advanced Calculus II",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 1.83
+            }
+        },
+        "gpa": 1.83
+    },
+    {
+        "name": "Linear Algebra and Differential Equations",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 1.55
+            },
+            "2": {
+                "schedule": [
+                    "wed_0830",
+                    "wed_0930",
+                    "fri_1330",
+                    "fri_1430"
+                ],
+                "gpa": 1.59
+            },
+            "3": {
+                "schedule": [
+                    "thu_0830",
+                    "thu_0930",
+                    "mon_1330",
+                    "mon_1430"
+                ],
+                "gpa": 1.47
+            },
+            "4": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 1.42
+            },
+            "5": {
+                "schedule": [
+                    "tue_1030",
+                    "tue_1130",
+                    "thu_1530",
+                    "thu_1630"
+                ],
+                "gpa": 1.42
+            }
+        },
+        "gpa": 1.48
+    },
+    {
+        "name": "Engineering Mathematics I",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 2.19
+            },
+            "2": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 1.7
+            }
+        },
+        "gpa": 1.88
+    },
+    {
+        "name": "Engineering Mathematics II",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "fri_1030",
+                    "fri_1130",
+                    "tue_1530",
+                    "tue_1630"
+                ],
+                "gpa": 2.59
+            },
+            "2": {
+                "schedule": [
+                    "fri_0830",
+                    "fri_0930",
+                    "tue_1330",
+                    "tue_1430"
+                ],
+                "gpa": 2.41
+            },
+            "3": {
+                "schedule": [
+                    "tue_1030",
+                    "tue_1130",
+                    "thu_1530",
+                    "thu_1630"
+                ],
+                "gpa": 2.6
+            }
+        },
+        "gpa": 2.53
+    },
+    {
+        "name": "Probability and Statistics",
+        "sections": {
+            "1": {
+                "schedule": [
+                    "mon_1030",
+                    "mon_1130",
+                    "wed_1530",
+                    "wed_1630"
+                ],
+                "gpa": 2.61
+            },
+            "2": {
+                "schedule": [
+                    "thu_1030",
+                    "thu_1130",
+                    "mon_1530",
+                    "mon_1630"
+                ],
+                "gpa": 2.74
+            }
+        },
+        "gpa": 2.68
+    }
+]
