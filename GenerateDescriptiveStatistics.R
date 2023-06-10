@@ -1,3 +1,8 @@
+install.packages("rjson")
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("data.table")
+install.packages("e1071")
 library(rjson)
 library(ggplot2)
 library(dplyr)
@@ -14,9 +19,8 @@ dt <- data.table(semesterName = character(),
                  mad = numeric(),
                  min = numeric(),
                  max = numeric(),
-                 firstQ = numeric(),
-                 thirdQ = numeric(),
-                 nas = numeric(),
+                 Q1 = numeric(),
+                 Q3 = numeric(),
                  skewness = numeric(),
                  kurtosis = numeric(),
                  se = numeric())
@@ -53,7 +57,6 @@ for (year in 2015:2021) {
     max_value_morning <- max(morning_gpas_2)
     first_quartile_morning <- quantile(morning_gpas_2, 0.25)
     third_quartile_morning <- quantile(morning_gpas_2, 0.75)
-    n_missing_morning <- sum(is.na(morning_gpas_2))
     skewness_value_morning <- skewness(morning_gpas_2)
     kurtosis_value_morning <- kurtosis(morning_gpas_2)
     se_value_morning <- sd_value_morning / sqrt(length(morning_gpas_2))
@@ -69,7 +72,6 @@ for (year in 2015:2021) {
     max_value_non_morning <- max(non_morning_gpas_2)
     first_quartile_non_morning <- quantile(non_morning_gpas_2, 0.25)
     third_quartile_non_morning <- quantile(non_morning_gpas_2, 0.75)
-    n_missing_non_morning <- sum(is.na(non_morning_gpas_2))
     skewness_value_non_morning <- skewness(non_morning_gpas_2)
     kurtosis_value_non_morning <- kurtosis(non_morning_gpas_2)
     se_value_non_morning <- sd_value_non_morning / sqrt(length(non_morning_gpas_2))
@@ -77,35 +79,33 @@ for (year in 2015:2021) {
     dt <- rbindlist(list(dt, list(semesterName = paste0(sub("(\\d{4})2", "\\1 Spring", sub("(\\d{4})1", "\\1 Fall", semesterName)), " Morning Classes"),
                                   gpas = list(morning_gpas),
                                   n = n_morning,
-                                  mean = mean_value_morning,
-                                  sd = sd_value_morning,
-                                  median = median_value_morning,
-                                  trimmedmean = trimmed_mean_morning,
-                                  mad = mad_value_morning,
-                                  min = min_value_morning,
-                                  max = max_value_morning,
-                                  firstQ = first_quartile_morning,
-                                  thirdQ = third_quartile_morning,
-                                  nas = n_missing_morning,
-                                  skewness = skewness_value_morning,
-                                  kurtosis = kurtosis_value_morning,
-                                  se = se_value_morning)), fill = TRUE)
+                                  mean = round(mean_value_morning, digits=5),
+                                  sd = round(sd_value_morning, digits=5),
+                                  median = round(median_value_morning, digits=5),
+                                  trimmedmean = round(trimmed_mean_morning, digits=5),
+                                  mad = round(mad_value_morning, digits=5),
+                                  min = round(min_value_morning, digits=5),
+                                  max = round(max_value_morning, digits=5),
+                                  Q1 = round(first_quartile_morning, digits=5),
+                                  Q3 = round(third_quartile_morning, digits=5),
+                                  skewness = round(skewness_value_morning, digits=5),
+                                  kurtosis = round(kurtosis_value_morning, digits=5),
+                                  se = round(se_value_morning, digits=5))), fill = TRUE)
     
     dt <- rbindlist(list(dt, list(semesterName = paste0(sub("(\\d{4})2", "\\1 Spring", sub("(\\d{4})1", "\\1 Fall", semesterName)), " Non-Morning Classes"), gpas = list(non_morning_gpas),
                                   n = n_non_morning,
-                                  mean = mean_value_non_morning,
-                                  sd = sd_value_non_morning,
-                                  median = median_value_non_morning,
-                                  trimmedmean = trimmed_mean_non_morning,
-                                  mad = mad_value_non_morning,
-                                  min = min_value_non_morning,
-                                  max = max_value_non_morning,
-                                  firstQ = first_quartile_non_morning,
-                                  thirdQ = third_quartile_non_morning,
-                                  nas = n_missing_non_morning,
-                                  skewness = skewness_value_non_morning,
-                                  kurtosis = kurtosis_value_non_morning,
-                                  se = se_value_non_morning)), fill = TRUE)
+                                  mean = round(mean_value_non_morning, digits=5),
+                                  sd = round(sd_value_non_morning, digits=5),
+                                  median = round(median_value_non_morning, digits=5),
+                                  trimmedmean = round(trimmed_mean_non_morning, digits=5),
+                                  mad = round(mad_value_non_morning, digits=5),
+                                  min = round(min_value_non_morning, digits=5),
+                                  max = round(max_value_non_morning, digits=5),
+                                  Q1 = round(first_quartile_non_morning, digits=5),
+                                  Q3 = round(third_quartile_non_morning, digits=5),
+                                  skewness = round(skewness_value_non_morning, digits=5),
+                                  kurtosis = round(kurtosis_value_non_morning, digits=5),
+                                  se = round(se_value_non_morning, digits=5))), fill = TRUE)
   }
 }
 
