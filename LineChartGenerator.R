@@ -1,5 +1,11 @@
+install.packages("rjson")
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("stringr")
 library(rjson)
 library(ggplot2)
+library(dplyr)
+library(stringr)
 
 means <- data.frame(semesterName = character(), morning_mean_gpa = numeric(), non_morning_mean = numeric())
 
@@ -9,19 +15,19 @@ for (year in 2015:2021) {
     semesterName <- paste0(year, semester)
     dataset <- fromJSON(file = paste0(paste0("offerings/", semesterName), "sections.json"))
     
-    # Initialize variables
-    morning_classes <- data.frame(courseCode = character(), gpa = numeric())
-    non_morning_classes <- data.frame(courseCode = character(), gpa = numeric())
+    df <- bind_rows(dataset)
     
+    df <- df %>%
+      group_by(courseCode, gpa) %>%
+      summarize(schedule = list(schedule))
     
-    for (i in seq_along(dataset)) {
-      if (any(grepl("^\\w{3}_0830$", dataset[[i]]$schedule))) {
-        morning_classes <- rbind(morning_classes, data.frame(courseCode = c(dataset[[i]]$courseCode), gpa = c(dataset[[i]]$gpa)))
-      } else {
-        non_morning_classes <- rbind(non_morning_classes, data.frame(courseCode = c(dataset[[i]]$courseCode), gpa = c(dataset[[i]]$gpa)))
-      }
-    }
+    morning_classes <- df %>%
+      filter(sapply(schedule, function(x) any(str_detect(x, "^\\w{3}_0830$")))) %>%
+      select(courseCode, gpa)
     
+    non_morning_classes <- df %>%
+      filter(!sapply(schedule, function(x) any(str_detect(x, "^\\w{3}_0830$")))) %>%
+      select(courseCode, gpa)
     
     # Calculate mean GPA for morning classes
     morning_mean_gpa <- mean(morning_classes$gpa)
