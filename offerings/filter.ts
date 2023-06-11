@@ -5,7 +5,7 @@ import { parse } from "node-html-parser";
 
 const TARGET_DEPTS = ["CTIS", "CS", "MATH", "LAW", "ECON"];
 
-const DAY_IDX = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const DAY_IDX = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] as const;
 const START_HOUR_IDX = [
 	"0830",
 	"0930",
@@ -21,11 +21,11 @@ const START_HOUR_IDX = [
 	"1930",
 	"2030",
 	"2130",
-];
+] as const;
 
-type SectionFiltered = { gpa?: string; schedule: string[] };
+type SectionFiltered = { gpa?: number; schedule: string[] };
 type SectionUnfiltered = { instructor: string; schedule: Record<string, string> };
-type CourseFiltered = { name: string; gpa?: string; sections: Record<string, SectionFiltered> };
+type CourseFiltered = { name: string; gpa?: number; sections: Record<string, SectionFiltered> };
 type CourseUnfiltered = { name: string; sections: Record<string, SectionUnfiltered> };
 type DeptFiltered = Record<string, CourseFiltered>;
 type DeptUnfiltered = Record<string, CourseUnfiltered>;
@@ -39,7 +39,6 @@ async function run() {
 	const files = [] as string[];
 
 	[2015, 2016, 2017, 2018, 2019, 2021].forEach((year) => {
-		// [2021].forEach((year) => {
 		[1, 2].forEach((semester) => {
 			files.push(`${year}${semester}.json`);
 		});
@@ -78,7 +77,10 @@ async function run() {
 					});
 
 					Object.keys(currFilteredCourse.sections).forEach((sec) => {
-						if (currFilteredCourse.sections[sec].schedule.length === 0)
+						if (
+							currFilteredCourse.sections[sec].schedule.length !== 4 ||
+							currFilteredCourse.sections[sec].schedule.some((d) => d.includes("s"))
+						)
 							delete currFilteredCourse.sections[sec];
 					});
 
@@ -102,7 +104,7 @@ async function run() {
 								"sec-fetch-dest": "empty",
 								"sec-fetch-mode": "cors",
 								"sec-fetch-site": "same-origin",
-								cookie: "PHPSESSID=4kk09mntpffs5e1htujvhc07s9",
+								cookie: "authchallenge=fdcdfc9d7717bccd266e603c4d4a62d2; PHPSESSID=5bphf2bgl66sgdelk9sl7as2vn", // Change PHPSESSID to fetch data
 								Referer: "https://stars.bilkent.edu.tr/homepage/plain_offerings",
 								"Referrer-Policy": "strict-origin-when-cross-origin",
 							},
@@ -116,10 +118,6 @@ async function run() {
 					fs.writeFileSync(path.join(__dirname, fileName.replace(".json", "offerings.html")), textResp);
 
 					const parsed = parse(textResp);
-
-					// console.log(textResp);
-					// const test = parsed.querySelector(`[id="MATH 605-1"]`);
-					// console.log("test el", test, test?.innerHTML);
 
 					Object.keys(filteredOfferings[dept]).forEach((courseCode) => {
 						Object.keys(filteredOfferings[dept][courseCode].sections).forEach((section) => {
@@ -136,10 +134,8 @@ async function run() {
 								const sectionGPAEl = tdEls[8];
 								const courseGPAEl = tdEls[9];
 
-								// console.log(sectionGPAEl);
-
 								if (sectionGPAEl) {
-									filteredOfferings[dept][courseCode].sections[section].gpa = sectionGPAEl.innerText;
+									filteredOfferings[dept][courseCode].sections[section].gpa = +sectionGPAEl.innerText;
 								} else {
 									console.error(
 										`Couldn't find section GPA for ${courseCode}-${section.padStart(
@@ -149,7 +145,7 @@ async function run() {
 									);
 								}
 								if (courseGPAEl) {
-									filteredOfferings[dept][courseCode].gpa = courseGPAEl.innerText;
+									filteredOfferings[dept][courseCode].gpa = +courseGPAEl.innerText;
 								} else {
 									console.error(
 										`Couldn't find course GPA for ${courseCode}-${section.padStart(
@@ -161,15 +157,23 @@ async function run() {
 							}
 						});
 					});
-
-					// fetched = true;
 				}
 			}
 		}
 
+		const sections = Object.values(filteredOfferings)
+			.map((deptCourses) => {
+				return Object.entries(deptCourses).map(([courseCode, course]) => {
+					return Object.entries(course.sections).map(([sectionId, section]) => {
+						return { ...section, courseCode: `${courseCode.replace(" ", "")}_${sectionId}` };
+					});
+				});
+			})
+			.flat(2);
+
 		fs.writeFileSync(
-			path.join(__dirname, fileName.replace(".json", "filtered.json")),
-			JSON.stringify(filteredOfferings, null, 4)
+			path.join(__dirname, fileName.replace(".json", "sections.json")),
+			JSON.stringify(sections, null, 4)
 		);
 	}
 }
