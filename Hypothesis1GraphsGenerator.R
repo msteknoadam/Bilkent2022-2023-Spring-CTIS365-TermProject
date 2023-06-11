@@ -1,14 +1,18 @@
+# Install packages if needed
 install.packages("ggplot2")
 install.packages("rjson")
 install.packages("dplyr")
 install.packages("stringr")
+# Load libraries
 library(rjson)
 library(ggplot2)
 library(dplyr)
 library(stringr)
 
+# Create empty data frame to populate later on
 df <- data.frame()
 
+# Populate the data frame by loading JSON files of past offerings files
 for (year in 2015:2021) {
   if (year == 2020) next
   for (semester in 1:2) {
@@ -63,8 +67,10 @@ non_morning_classes <- non_morning_classes[!duplicated(non_morning_classes[c("co
 matching_classes <- merge(x = morning_classes, y = non_morning_classes, by = c("course", "semester", "dept")) %>%
   arrange(semester, course)
 
+# Minimum number of sample count
 sample_count <- 4
 
+# Loop until finding at least sample_count number of samples
 repeat {
   sample_semester_and_dept <- matching_classes[matching_classes$semester == sample(matching_classes$semester, 1) &
                                                  matching_classes$dept == sample(matching_classes$dept, 1), ]
@@ -76,6 +82,7 @@ repeat {
 
 sample_courses <- sample_semester_and_dept[sample(nrow(sample_semester_and_dept), 4), ]
 
+# Show graphs for each different sample course
 for(i in 1:nrow(sample_courses)) {
   course <- sample_courses[i,]
   courseCodes <- c(paste(course$courseCode.x, course$semester, "(Morning)"), paste(course$courseCode.y, course$semester, "(Non-Morning)"))
@@ -83,6 +90,7 @@ for(i in 1:nrow(sample_courses)) {
     courseCode = as.factor(courseCodes),
     gpa = c(course$gpa.x, course$gpa.y)
   )
+  # Find difference between max and min values here so we can create a dynamically adjusted graph limit
   diff <- max(courses_split$gpa) - min(courses_split$gpa)
   print(ggplot(courses_split, aes(x = courseCode, y = gpa)) +
     geom_bar(stat = "identity") +

@@ -55,8 +55,8 @@ sample_count <- 8
 # Loop until finding at least sample_count number of samples
 repeat {
   sample_semester_and_dept_and_course <- df[df$semester == sample(df$semester, 1) &
-                                            df$dept == sample(df$dept, 1) &
-                                            df$course == sample(df$course, 1), ]
+                                              df$dept == sample(df$dept, 1) &
+                                              df$course == sample(df$course, 1), ]
   
   dup_schedules <- sample_semester_and_dept_and_course[duplicated(sample_semester_and_dept_and_course$schedule), ]
   
@@ -73,7 +73,7 @@ schedule_grouped_dups <- dup_schedules %>%
             courses = list(course),
             depts = list(dept))
 
-# Shows graphs of courses that have same schedules
+# Graph 1 - GPA's of Courses That Have Same Schedule
 for(i in 1:nrow(schedule_grouped_dups)) {
   row <- schedule_grouped_dups[i, ]
   courses_split <- data.frame(
@@ -94,6 +94,36 @@ for(i in 1:nrow(schedule_grouped_dups)) {
                 plot.title = element_text(hjust = 0.5)) +
           xlab("Course") +
           ylab("GPA") +
-          ggtitle(paste("Hypothesis 2 - Ex. ", i)))
+          ggtitle("GPA's of Courses That Have Same Schedule"))
   invisible(readline(prompt="Press [enter] to see next graph"))
 }
+
+# Graph 2 - Mean GPAs of Departments Based On Schedule
+mean_gpa_of_all_depts_of_same_schedule <- df %>%
+  group_by(dept, schedule) %>%
+  summarise(mean_gpa = mean(gpa))
+
+# Remove unique schedules, so can be compared based on common schedules instead
+mean_gpa_of_all_depts_of_same_schedule <- mean_gpa_of_all_depts_of_same_schedule %>%
+  group_by(schedule) %>%
+  filter(n_distinct(dept) == n_distinct(mean_gpa_of_all_depts_of_same_schedule$dept)) %>%
+  ungroup()
+
+# Find difference between max and min values here so we can create a dynamically adjusted graph limit
+diff <- max(mean_gpa_of_all_depts_of_same_schedule$mean_gpa) - min(mean_gpa_of_all_depts_of_same_schedule$mean_gpa)
+
+# Turn schedule names into human readable format
+mean_gpa_of_all_depts_of_same_schedule$schedule <- str_replace_all(str_replace_all(str_replace_all(paste(mean_gpa_of_all_depts_of_same_schedule$schedule), '"|c', ""), ', ', "-"), "(\\d{2})(\\d{2})", "\\1:\\2")
+
+ggplot(mean_gpa_of_all_depts_of_same_schedule, aes(x = paste(schedule), y = mean_gpa, group = dept, color = dept)) +
+  geom_line() +
+  labs(x = "Schedule", y = "Mean GPA", title = "Mean GPAs of Departments Based On Schedule", color = "Department") +
+  scale_color_manual(values = c("red", "blue", "purple", "brown", "orange")) +
+  coord_cartesian(ylim = c(min(mean_gpa_of_all_depts_of_same_schedule$mean_gpa) - (diff / 4), max(mean_gpa_of_all_depts_of_same_schedule$mean_gpa) + (diff / 4))) +
+  theme(panel.background = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent"),
+        panel.grid.major = element_line(color = rgb(0, 0, 0, alpha = 0.5), linetype = "dotted"),
+        panel.grid.minor = element_line(color = rgb(0, 0, 0, alpha = 0.5), linetype = "dotted"),
+        axis.line = element_line(color = "black"),
+        plot.title = element_text(hjust = 0.5),
+        legend.position = "top")

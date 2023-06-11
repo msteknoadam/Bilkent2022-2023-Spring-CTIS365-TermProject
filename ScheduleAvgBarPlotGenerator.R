@@ -1,14 +1,18 @@
-install.packages("rjson")
+# Install packages if needed
 install.packages("ggplot2")
+install.packages("rjson")
 install.packages("dplyr")
 install.packages("stringr")
+# Load libraries
 library(rjson)
 library(ggplot2)
 library(dplyr)
 library(stringr)
 
+# Create empty data frame to populate later on
 df <- data.frame()
 
+# Populate the data frame by loading JSON files of past offerings files
 for (year in 2015:2021) {
   if (year == 2020) next
   for (semester in 1:2) {
@@ -31,8 +35,8 @@ if (has_na) {
   print("Data set doesn't have any NA values!")
 }
 
+# Convert schedule names into human readable names
 df$schedule <- str_replace_all(df$schedule, "^\\w{3}_", "")
-
 df$schedule <- paste(substr(df$schedule, 1, 2), ":", substr(df$schedule, 3, 4), sep = "")
 
 schedule_avg <- aggregate(gpa ~ schedule, data = df, FUN = mean)

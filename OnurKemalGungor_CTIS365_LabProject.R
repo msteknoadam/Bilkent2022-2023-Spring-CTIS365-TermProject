@@ -55,7 +55,7 @@ sample_count <- 6
 # Loop until finding at least sample_count number of samples
 repeat {
   sample_semester_and_depts <- df[df$semester == sample(df$semester, 1) &
-                                              df$dept %in% sample(unique(df$dept), 2), ]
+                                    df$dept %in% sample(unique(df$dept), 2), ]
   
   uniq_schedules <- data.frame(
     schedule = I(unique(sample_semester_and_depts$schedule)),
@@ -91,6 +91,7 @@ repeat {
   }
 }
 
+# Graph 1 - Different Courses With Same Schedule From 2 Departments
 combined <- data.frame(
   courseNum = as.factor(paste0("Course ", seq(nrow(dup_schedules_dept1)))),
   gpa1 = dup_schedules_dept1$gpa,
@@ -115,4 +116,47 @@ ggplot(combined, aes(x = courseNum)) +
         axis.line = element_line(color = "black"),
         plot.title = element_text(hjust = 0.5),
         legend.position = "top") +
-  ggtitle("Hypothesis 3")
+  ggtitle(paste("GPAs of", nrow(combined) ,"Different Courses With Same Schedule From 2 Departments"))
+
+# Graph 2 - Mean GPA of Morning Classes vs Non-Morning Classes of 2 Random Departments
+# Find mean GPA of Morning and Non-Morning classes of 2 random departments and make sure their semester data are same
+repeat {
+  selected_depts <- sample(unique(df$dept), 2)
+  
+  morning_df <- df %>%
+    filter(dept %in% selected_depts, grepl("0830", schedule)) %>%
+    group_by(dept, semester) %>%
+    summarise(morning_mean_gpa = mean(gpa))
+  
+  non_morning_df <- df %>%
+    filter(dept %in% selected_depts, !grepl("0830", schedule)) %>%
+    group_by(dept, semester) %>%
+    summarise(non_morning_mean_gpa = mean(gpa))
+  
+  dept1 <- morning_df$dept[1]
+  
+  if(nrow(morning_df[morning_df$dept == dept1, ]) == nrow(morning_df[morning_df$dept != dept1, ]) &&
+     all(morning_df[morning_df$dept == dept1, ]$semester == morning_df[morning_df$dept != dept1, ]$semester)) {
+    break
+  }
+}
+
+combined <- inner_join(morning_df, non_morning_df, by = c("dept", "semester"))
+
+# Find difference between max and min values here so we can create a dynamically adjusted graph limit
+diff <- max(combined$morning_mean_gpa, combined$non_morning_mean_gpa) - min(combined$morning_mean_gpa, combined$non_morning_mean_gpa)
+
+ggplot(combined, aes(x = semester, y = morning_mean_gpa, color = dept, group = dept)) +
+  geom_line() +
+  geom_point() +
+  geom_line(aes(y = non_morning_mean_gpa), linetype = "dashed") +
+  geom_point(aes(y = non_morning_mean_gpa), shape = 16) +
+  labs(x = "Semester", y = "Mean GPA", title = "Mean GPA of Morning Classes vs Non-Morning Classes of Each Department", subtitle = "Non-Dashed = Morning Classes / Dashed = Non-Morning Classes", color = "Department") +
+  theme(panel.background = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent"),
+        panel.grid.major = element_line(color = rgb(0, 0, 0, alpha = 0.5), linetype = "dotted"),
+        panel.grid.minor = element_line(color = rgb(0, 0, 0, alpha = 0.5), linetype = "dotted"),
+        axis.line = element_line(color = "black"),
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5),
+        legend.position = "top")

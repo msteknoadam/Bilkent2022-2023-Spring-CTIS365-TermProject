@@ -1,14 +1,18 @@
-install.packages("rjson")
+# Install packages if needed
 install.packages("ggplot2")
+install.packages("rjson")
 install.packages("dplyr")
 install.packages("stringr")
+# Load libraries
 library(rjson)
 library(ggplot2)
 library(dplyr)
 library(stringr)
 
+# Create empty data frame to store morning and non-morning classes' mean GPAs
 means <- data.frame(semesterName = character(), morning_mean_gpa = numeric(), non_morning_mean = numeric())
 
+# Populate the data frame by loading JSON files of past offerings files
 for (year in 2015:2021) {
   if (year == 2020) next
   for (semester in 1:2) {
