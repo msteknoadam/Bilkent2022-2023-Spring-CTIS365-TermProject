@@ -21,6 +21,16 @@ for (year in 2015:2021) {
   }
 }
 
+# Check for NA values
+has_na <- any(is.na(df))
+
+if (has_na) {
+  # Drop rows with NA values
+  df <- na.omit(df)
+} else {
+  print("Data set doesn't have any NA values!")
+}
+
 df$schedule <- str_replace_all(df$schedule, "^\\w{3}_", "")
 
 df$schedule <- paste(substr(df$schedule, 1, 2), ":", substr(df$schedule, 3, 4), sep = "")
