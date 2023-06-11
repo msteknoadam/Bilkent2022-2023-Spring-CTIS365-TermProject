@@ -1,14 +1,17 @@
+# Install packages if needed
 install.packages("rjson")
 install.packages("ggplot2")
 install.packages("dplyr")
 install.packages("data.table")
 install.packages("e1071")
+# Load libraries
 library(rjson)
 library(ggplot2)
 library(dplyr)
 library(data.table)
 library(e1071)
 
+# Create empty table to store descriptive statistics values
 dt <- data.table(semesterName = character(),
                  gpas = vector(),
                  n = numeric(),
@@ -25,6 +28,7 @@ dt <- data.table(semesterName = character(),
                  kurtosis = numeric(),
                  se = numeric())
 
+# Populate the data frame by loading JSON files of past offerings files
 for (year in 2015:2021) {
   if (year == 2020) next
   for (semester in 1:2) {

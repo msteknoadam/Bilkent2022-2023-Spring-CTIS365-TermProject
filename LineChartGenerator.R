@@ -25,16 +25,6 @@ for (year in 2015:2021) {
       group_by(courseCode, gpa) %>%
       summarize(schedule = list(schedule))
     
-    # Check for NA values
-    has_na <- any(is.na(df))
-    
-    if (has_na) {
-      # Drop rows with NA values
-      df <- na.omit(df)
-    } else {
-      print("Data set doesn't have any NA values!")
-    }
-    
     morning_classes <- df %>%
       filter(sapply(schedule, function(x) any(str_detect(x, "^\\w{3}_0830$")))) %>%
       select(courseCode, gpa)
@@ -51,6 +41,16 @@ for (year in 2015:2021) {
     
     means <- rbind(means, data.frame(semesterName = sub("(\\d{4})2", "\\1 Spring", sub("(\\d{4})1", "\\1 Fall", semesterName)), morning_mean_gpa = morning_mean_gpa, non_morning_mean = non_morning_mean_gpa))
   }
+}
+
+# Check for NA values
+has_na <- any(is.na(means))
+
+if (has_na) {
+  # Drop rows with NA values
+  df <- na.omit(df)
+} else {
+  print("Data set doesn't have any NA values!")
 }
 
 # Create the line chart using ggplot2
