@@ -35,6 +35,16 @@ for (year in 2015:2021) {
   }
 }
 
+# Check for NA values
+has_na <- any(is.na(df))
+
+if (has_na) {
+  # Drop rows with NA values
+  df <- na.omit(df)
+} else {
+  print("Data set doesn't have any NA values!")
+}
+
 # Filter courses with at least one lecture starting at 0830
 morning_classes <- df %>%
   filter(grepl("0830", schedule))
